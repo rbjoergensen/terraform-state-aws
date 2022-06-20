@@ -2,7 +2,7 @@
 Infrastructure for storing Terraform state files and lock states remotely in AWS.
 ## Example
 This is an example of how the backend configuration could be defined in a workspace.
-``` hcl
+``` terraform
 terraform {
   required_providers {
     aws = {
